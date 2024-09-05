@@ -1,8 +1,8 @@
-### 1.7.37 (build 21997, api 9, 2024-09-05)
-- Bumping api version to 9. As you'll see below, there's some UI changes that
+### 1.7.37 (build 21995, api 9, 2024-09-05)
+- Bumping api version to 9. As you'll see below, there are some UI changes that
   will require a bit of work for any UI mods to adapt to. If your mods don't
   touch UI stuff at all you can simply bump your api version and call it a day.
-  I'm hopeful that api version won't need to be bumped again for along time (if
+  I'm hopeful that api version won't need to be bumped again for a long time (if
   ever).
 - Playlist customization no longer requires pro.
 - Soundtrack customization no longer requires pro.
@@ -80,7 +80,7 @@
   you need to use something like `bascenev1.broadcastmessage()` to show things
   to everyone in a game.
 - Removed `efro.util.enum_by_value()` which was a workaround for a Python bug
-  that has been fixed for a few versions now. Instaed of
+  that has been fixed for a few versions now. Instead of
   `enum_by_value(MyEnumType, foo)` you can simply do `MyEnumType(foo)`.
 - Removed `bauiv1.is_party_icon_visible()` as it is now always visible.
 - 'ui_scale' is no longer available in _babase.env() since it can now change;
