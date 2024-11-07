@@ -2,7 +2,7 @@
 - Bumping api version to 9. As you'll see below, there's some UI changes that
   will require a bit of work for any UI mods to adapt to. If your mods don't
   touch UI stuff at all you can simply bump your api version and call it a day.
-  I'm hopeful that api version won't need to be bumped again for along time (if
+  I'm hopeful that api version won't need to be bumped again for a long time (if
   ever).
 - I am pleased to announce that after years of hard work from many members of
   the community, PirateSpeak is now complete and available as a language choice.
